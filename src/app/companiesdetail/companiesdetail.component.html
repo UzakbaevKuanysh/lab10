@@ -1,0 +1,13 @@
+<nav>
+    <div *ngFor="let vacancy of vacancies">
+        <div class = "item">
+        <ul>
+            <li> Name:{{vacancy.name}}</li>
+            <li> Description:{{vacancy.description}}</li>
+            <li> Salary:{{vacancy.salary}}</li>
+            <li> Company:{{vacancy.company}}</li>
+            </ul>
+            </div>
+      </div>
+    </nav>
+<router-outlet></router-outlet>

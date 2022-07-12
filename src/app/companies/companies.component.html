@@ -1,0 +1,8 @@
+<p>albums works!</p>
+<nav>
+<div *ngFor = "let company of companies ">
+    <a routerLink= "{{company.id}}/vacancies"><h2> {{company.name}}</h2></a>
+    
+</div>
+</nav>
+<router-outlet></router-outlet>
